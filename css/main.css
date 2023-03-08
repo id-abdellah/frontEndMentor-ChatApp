@@ -284,6 +284,7 @@ body::before {
 
 .wrapper .app .foot {
     padding: 0 10px 20px;
+    position: relative;
 }
 
 .wrapper .app .foot input[type="text"] {
@@ -295,7 +296,27 @@ body::before {
     border: none;
 }
 
+.wrapper .app .foot button {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: hsl(271, 36%, 24%);
+}
 
+.wrapper .app .foot button i {
+    color: white;
+}
+
+
+
+/* 
+    Explaine booking
+*/
 
 .wrapper .explaine {
     width: 50%;
